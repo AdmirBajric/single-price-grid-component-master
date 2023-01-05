@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+
+  #main {
+    width: 35rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 38% 31% 31%;
+  }
+
+  #header {
+    grid-area: 1 / 1 / 2 / 2;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 3rem 3rem 2rem 3rem;
+  }
+
+  #subscription {
+    grid-area: 2 / 1 / 3 / 2;
+    border-bottom-left-radius: 0rem;
+    padding: 3rem;
+  }
+
+  #subscription h2 {
+    font-size: 2rem;
+  }
+
+  #subscription p {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+
+  #subscription button {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  #about {
+    grid-area: 3 / 1 / 4 / 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  #header p {
+    font-size: 1.4rem;
+    line-height: 1.9;
+  }
+
+  .price {
+    width: 55%;
+    margin-top: 1.5rem;
+  }
+
+  .price p {
+    margin-bottom: 1rem;
+  }
+
+  .price span {
+    font-size: 3.5rem;
+  }
+
+  #about {
+    padding: 3rem;
+  }
+
+  #about h2 {
+    font-size: 2rem;
+  }
+
+  #about p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
