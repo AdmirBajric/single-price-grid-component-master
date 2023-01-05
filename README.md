@@ -1,9 +1,9 @@
-# Interactive Rating Component Main
+# Single Price Grid Component Master
 
 ## Frontend Mentor
 
 ### https://www.frontendmentor.io/
 
-Interactive Rating Component Main
+Single Price Grid Component Master
 
-Technology used : HTML, CSS, Flexbox, Javascript
+Technology used : HTML, CSS, Flexbox, Grid, Javascript
